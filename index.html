@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>lab.html</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <from action="upload.php"
+          method="post"
+          encty="multipart/from-data">
+        <label>Họ Và Tên</label><br>
+        <input type="text"/><br>
+        <lable> Giới Tính:</lable>
+        <label><input type="radio"name="gender"checked/>Nam</label>
+        <label><input type="radio"name="gender"/>Nữ<br></label>
+        <label>Hình Ảnh:</label><br>
+        <input type="File"name="photo"/>
+        <button>upload</button><br>
+        <label>
+            Quốc Tịch:
+        </label>
+        <select>
+            <option>Việt Nam</option>
+            <option>Trung Quốc</option>
+            <option>In do ne xi a</option>
+            <option>Phi lip pin</option>
+            <option>Lào</option>
+            <option>Cam pu chia</option>
+            <option>Thái Lan</option>
+        </select><br>
+        <label>Sở Thích:</label><br>
+        <label><input name="blod" type="checkbox"checked/>Du Lịch</label>
+        <label><input name="blod" type="checkbox"/>Thể Thao</label>
+        <label><input name="blod" type="checkbox"/>Âm Nhạc</label>
+        <label><input name="blod" type="checkbox"/>Bóng Đá</label><br>
+        <label>Ghi Chú:</label><br>
+        <textarea row="4"cols="50"></textarea><br>
+        <hr>
+        <button>Đăng ký</button> 
+        <button>Nhập Lại</button>
+
+        
+    </from>
+    <div>
+            <script src="https://uhchat.net/code.php?f=2b8b32"></script>
+        </div>
+       
+    </body>
+</html>
